@@ -9,50 +9,51 @@
 		<a href="./lr_wd_stability/vit_sc_hybridc1_l12_adam_e50.html">ViT_SmallCustom_HybridC1_AdamW_Epoch50_64sweeps</a><br>
 		<a href="./lr_wd_stability/vit_sc_hybridc1rb1_l12_adam_e50.html">ViT_SmallCustom_HybridC1RB1_AdamW_Epoch50_64sweeps</a><br>
 		<a href="./lr_wd_stability/resnet50_strong_adamw_e50.html">ResNet50_AdamW_Epoch50_64sweeps</a><br>
-		<a href="./lr_wd_stability/sc_adamw_e50_compareall.html">Compare_All_SC</a><br>
+		<a href="./lr_wd_stability/sc_adamw_e50_compareall.html">Compare_All_SC_AdamW</a><br>
 		<br>
 		<a href="./lr_wd_stability/vit_base_original_l12_adam_e50.html">ViT_Base_Original_AdamW_Epoch50_64sweeps</a><br>
 		<a href="./lr_wd_stability/vit_base_hybridc1_l12_adam_e50.html">ViT_Base_HybridC1_AdamW_Epoch50_64sweeps</a><br>
 		<a href="./lr_wd_stability/vit_base_hybridc1rb1_l12_adam_e50.html">ViT_Base_HybridC1RB1_AdamW_Epoch50_64sweeps</a><br>
-		<a href="./lr_wd_stability/base_adamw_e50_compareall.html">Compare_All_Base</a><br>
+		<a href="./lr_wd_stability/base_adamw_e50_compareall.html">Compare_All_Base_AdamW</a><br>
 		<br>
 		<a href="./lr_wd_stability/vit_sc_original_l12_sgd_e50.html">ViT_SmallCustom_Original_SGD_Epoch50_64sweeps</a><br>
-		ViT_SmallCustom_HybridC1_SGD_Epoch50_64sweeps running<br>
-		ViT_SmallCustom_HybridC1RB1_SGD_Epoch50_64sweeps running<br>
+		<a href="./lr_wd_stability/vit_sc_hybridc1_l12_sgd_e50.html">ViT_SmallCustom_HybridC1_SGD_Epoch50_64sweeps</a><br>
+		<a href="./lr_wd_stability/vit_sc_hybridc1rb1_l12_sgd_e50.html">ViT_SmallCustom_HybridC1RB1_SGD_Epoch50_64sweeps</a><br>
 		<a href="./lr_wd_stability/resnet50_strong_sgd_e50.html">ResNet50_SGD_Epoch50_64sweeps</a><br>
+		<a href="./lr_wd_stability/sc_sgd_e50_compareall.html">Compare_All_SC_SGD</a><br>
 		
 		<br>
-		ViT_Base_Original_SGD_Epoch50_64sweeps to be launched<br>
-		ViT_Base_HybridC1_SGD_Epoch50_64sweeps to be launched<br>
-		ViT_Base_HybridC1RB1_SGD_Epoch50_64sweeps to be launched<br>
+		ViT_Base_Original_SGD_Epoch50_64sweeps running (ross, s32-)<br>
+		ViT_Base_HybridC1_SGD_Epoch50_64sweeps running (ross, s0-)<br>
+		ViT_Base_HybridC1RB1_SGD_Epoch50_64sweeps to be launched (piotr, s43-)<br>
 		
 		<br><big>(2) Training Length Stability </big> <br>
-		ResNet50_Strong_AdamW_Epoch[50, 100, 200, 400] running <br>
-		ViT_SmallCustom_Original_AdamW_Epoch[50, 100, 200, 400] running <br>
-		ViT_SmallCustom_HybridC1_AdamW_Epoch[50, 100, 200, 400] running <br>
-		ViT_SmallCustom_HybridC1Rb1_AdamW_Epoch[50, 100, 200, 400] running <br>
+		ResNet50_Strong_AdamW_Epoch[50, 100, 200, 400] running / e320 <br>
+		<a href="./training_length_stability/vit_sc_original_l12_adam_epochs.html">ViT_SmallCustom_Original_AdamW_Epoch[50, 100, 200, 400]</a><br>
+		<a href="./training_length_stability/vit_sc_hybridc1_l12_adam_epochs.html">ViT_SmallCustom_HybridC1_AdamW_Epoch[50, 100, 200, 400]</a><br>
+		ViT_SmallCustom_HybridC1Rb1_AdamW_Epoch[50, 100, 200, 400] running / e298 <br>
 		
 		<br>
-		ViT_Base_Original_AdamW_Epoch[50, 100, 200, 400] running <br>
-		ViT_Base_HybridC1_AdamW_Epoch[50, 100, 200, 400] running <br>
-		ViT_Base_HybridC1Rb1_AdamW_Epoch[50, 100, 200, 400] running <br>
+		<a href="./training_length_stability/vit_base_original_l12_adam_epochs.html">ViT_Base_Original_AdamW_Epoch[50, 100, 200, 400]</a><br>
+		ViT_Base_HybridC1_AdamW_Epoch[50, 100, 200, 400] running / e201 (tete)<br>
+		ViT_Base_HybridC1Rb1_AdamW_Epoch[50, 100, 200, 400] running / e248 (tete)<br>
 		
 		<br><big>(3) Optimizer Stability </big> <br>
-		ResNet50_Strong_SGD_Epoch[50, 100, 200, 400] running <br>
-		ViT_SmallCustom_Original_SGD_Epoch[50, 100, 200, 400] running <br>
-		ViT_SmallCustom_HybridC1_SGD_Epoch[50, 100, 200, 400] waiting for experiment (1) to finish <br>
-		ViT_SmallCustom_HybridC1Rb1_SGD_Epoch[50, 100, 200, 400] waiting for experiment (1) to finish <br>
+		ResNet50_Strong_SGD_Epoch[50, 100, 200, 400] running / e360 (tete)<br>
+		ViT_SmallCustom_Original_SGD_Epoch[50, 100, 200, 400] running /e176 (tete)<br>
+		ViT_SmallCustom_HybridC1_SGD_Epoch[50, 100, 200, 400] running / e0 (tete) <br>
+		ViT_SmallCustom_HybridC1Rb1_SGD_Epoch[50, 100, 200, 400] running / e0 (tete) <br>
 		
 		<br>
-		ViT_Base_Original_SGD_Epoch[50, 100, 200, 400] waiting for experiment (1) to launch & finish <br>
-		ViT_Base_HybridC1_SGD_Epoch[50, 100, 200, 400] waiting for experiment (1) to launch & finish <br>
-		ViT_Base_HybridC1Rb1_SGD_Epoch[50, 100, 200, 400] waiting for experiment (1) to launch & finish <br>
+		ViT_Base_Original_SGD_Epoch[50, 100, 200, 400] waiting for experiment (1) to & finish <br>
+		ViT_Base_HybridC1_SGD_Epoch[50, 100, 200, 400] waiting for experiment (1) to & finish <br>
+		ViT_Base_HybridC1Rb1_SGD_Epoch[50, 100, 200, 400] waiting for experiment (1) to & finish <br>
 		
 		<br><big>(4) Stem BN </big> <br>
-		to be launched (a sweep of 64 jobs)
+		running (s0 / tete)<br>
 		
 		<br><big>(5) Stem Design </big> <br>
-		to be coded (~14 jobs)
+		to be coded (~14 jobs)<br>
 	</p>
   </body>
 </html>
